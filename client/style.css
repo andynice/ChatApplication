@@ -1,0 +1,65 @@
+body {
+	background-color: white;
+	color: #303030;
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	font-size: 15px;
+	margin: 20px;
+}
+
+main {
+	background-color: #f0f0f0;
+	margin: 20px auto;
+	max-width: 450px;
+	padding: 20px;
+	border-radius: 6px;
+	box-shadow: 3px 3px 12px #c8c8c8;
+}
+
+ol {
+	list-style: none;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+li {
+	padding: 10px;
+}
+
+li:nth-child(odd) {
+	background-color: #e3e3e3;
+	border-radius: 6px;
+}
+
+form {
+	background-color: lightsteelblue;
+	padding: 10px;
+	border-radius: 6px;
+	margin: 0;
+}
+
+button {
+	background-color: cornflowerblue;
+	border-radius: 3px;
+	padding: 5px 10px;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: none;
+}
+
+input {
+	border-radius: 3px;
+	border: none;
+	font-size: 15px;
+	padding: 5px;
+}
+
+#initials {
+	width: 40px;
+}
+
+#message {
+	width: 315px;
+}
